@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AFinalProj.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Employee Number: "/>
+                <Label x:Name="EmpNum"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Employee Name: "/>
+                <Label x:Name="EmpName"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hours Work: "/>
+                <Label x:Name="HoursWork"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Employee Status: "/>
+                <Label x:Name="EmployeeStat"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Civil Status: "/>
+                <Label x:Name="CivilStat"/>
+            </StackLayout>
+
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rate per Hour: "/>
+                <Label x:Name="RatePerHour"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Basic: "/>
+                <Label x:Name="Basic"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Overtime: "/>
+                <Label x:Name="Overtime"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Gross: "/>
+                <Label x:Name="Gross"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="SSS: "/>
+                <Label x:Name="SSS"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="WTax: "/>
+                <Label x:Name="WTax"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Philhealth: "/>
+                <Label x:Name="Philhealth"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Pagibig: "/>
+                <Label x:Name="Pagibig"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Deduction: "/>
+                <Label x:Name="Deduction"/>
+            </StackLayout>
+            <!---->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Net Income: "/>
+                <Label x:Name="NetIncome"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

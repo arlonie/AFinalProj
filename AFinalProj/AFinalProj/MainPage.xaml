@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AFinalProj.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="arlonietrash" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="EmpNum" Placeholder="Employee Number here"/>
+        <Entry x:Name="EmpName" Placeholder="Employee Name here"/>
+        <Entry x:Name="HoursWork" Placeholder="Hours Work here"/>
+        <Entry x:Name="EmploymentStat" Placeholder="Employment Status here (P / R / C / T / others)"/>
+        <Entry x:Name="CivilStat" Placeholder="Civil Status here (S / M / W / others)"/>
+        
+        <!--BUTTONS-->
+        <Button x:Name="add" Text="ADD" Clicked="add_Clicked"/>
+        <Button x:Name="update" Text="UPDATE" Clicked="update_Clicked"/>
+        <Button x:Name="search" Text="SEARCH" Clicked="search_Clicked"/>
+        <Button x:Name="delete" Text="DELETE" Clicked="delete_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
